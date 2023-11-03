@@ -1,26 +1,26 @@
 @font-face {
   font-family: apercu-bold;
-  src: url("/public/fonts/apercu-bold-pro.woff2");
+  src: url("/fonts/apercu-bold-pro.woff2");
 }
 @font-face {
   font-family: apercu-light;
-  src: url("/public/fonts/apercu-light-pro.woff2");
+  src: url("/fonts/apercu-light-pro.woff2");
 }
 @font-face {
   font-family: apercu-medium;
-  src: url("/public/fonts/apercu-medium-pro.woff2");
+  src: url("/fonts/apercu-medium-pro.woff2");
 }
 @font-face {
   font-family: apercu-regular;
-  src: url("/public/fonts/apercu-regular-pro.woff2");
+  src: url("/fonts/apercu-regular-pro.woff2");
 }
 @font-face {
   font-family: BatGhost;
-  src: url("/public/fonts/BatGhost.ttf");
+  src: url("/fonts/BatGhost.ttf");
 }
 @font-face {
   font-family: Ghastly;
-  src: url("/public/fonts/GhastlyPanic.ttf");
+  src: url("/fonts/GhastlyPanic.ttf");
 }
 * {
   margin: 0;
