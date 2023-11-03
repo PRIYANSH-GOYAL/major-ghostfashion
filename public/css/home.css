@@ -28,6 +28,7 @@ nav {
 }
 .logo-click {
   filter: drop-shadow(10px 30px 5px rgb(70, 70, 70));
+  transition: all 0.5s ease-in-out;
 }
 .logo-click:hover {
   filter: drop-shadow(10px 30px 5px rgb(160, 3, 3));
@@ -61,6 +62,12 @@ nav {
   gap: 1rem;
   font-size: 0;
 }
+.search,
+.login,
+.whishlist,
+.cart {
+  transition: all 0.5s ease-in-out;
+}
 .search:hover,
 .login:hover,
 .whishlist:hover,
@@ -84,8 +91,7 @@ nav {
 
 .category {
   text-transform: capitalize;
-  transition: all 0.2s ease-in-out;
-  /* padding: 2rem 0 1rem 0; */
+  transition: all 0.5s ease-in-out;
   padding-top: 2rem;
   font-size: 20px;
 }
@@ -127,11 +133,10 @@ nav {
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   background: rgb(160, 3, 3);
-
 }
 
 /* fixing button  */
-.fix-it{
+.fix-it {
   height: fit-content;
   width: fit-content;
 
@@ -147,19 +152,19 @@ nav {
 }
 
 /* products display on home page  */
-main{
+main {
   border: 1px solid black;
   /* height: 300vh; */
   /* background: red; */
 }
-.products-display{
+.products-display {
   width: 96%;
   margin: auto;
 }
-.product-category{
+.product-category {
   margin-bottom: 3rem;
 }
-.category-title{
+.category-title {
   text-transform: capitalize;
   font-size: 70px;
   font-family: apercu-bold;
@@ -168,35 +173,36 @@ main{
   /* border-bottom: 2px dotted black; */
 }
 
-.all-products{
+.all-products {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 1rem 0;
 }
-.product-box{
+.product-box {
   width: 24%;
   border: 1px solid black;
   border-radius: 25px;
+  transition: all 0.5s ease-in-out;
 }
-.product-box:hover{
+.product-box:hover {
   transition: all 500ms ease-in-out;
-  box-shadow: 19px 24px 34px -13px rgba(0,0,0);
+  box-shadow: 19px 24px 34px -13px rgba(0, 0, 0);
 }
-.product-img-box{
+.product-img-box {
   width: 100%;
   font-size: 0;
   position: relative;
 }
-.product-img{
+.product-img {
   border-radius: 25px 25px 0 0;
   width: 100%;
   background-size: cover;
   height: 450px;
 }
 
-.tags{
+.tags {
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -208,44 +214,47 @@ main{
   text-transform: capitalize;
   color: white;
 }
-.whishlist-btn{
+.whishlist-btn {
   position: absolute;
   top: 1rem;
   right: 1rem;
   font-size: 0;
 }
-.add-whishlist{
+.add-whishlist {
   width: 30px;
   height: 30px;
+  transition: all 0.5s ease-in-out;
 }
-.product-info-box{
+.add-whishlist:hover {
+  filter: drop-shadow(0px 10px 5px rgb(160, 3, 3));
 }
-.product-name{
+.product-info-box {
+}
+.product-name {
   font-size: 20px;
   text-transform: uppercase;
   padding: 0.5rem 0;
 }
-.price{
+.price {
   display: flex;
   justify-content: start;
   align-items: baseline;
   gap: 0.8rem;
 }
-.product-price{
+.product-price {
   text-transform: uppercase;
   font-size: 25px;
   font-family: apercu-bold;
 }
-.actual-product-price{
+.actual-product-price {
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: line-through;
   color: rgb(160, 3, 3);
 }
-.add-to-cart{
-
+.add-to-cart {
 }
-.cart-btn{
+.cart-btn {
   background: black;
   color: white;
   text-align: center;
@@ -254,7 +263,7 @@ main{
   text-transform: capitalize;
 }
 
-.newsletter-box{
+.newsletter-box {
   background: #f3f3f3;
   border: 1px solid black;
   /* height: 40vh; */
@@ -265,29 +274,28 @@ main{
   align-items: center;
   gap: 2rem;
 }
-.newsletter-heading{
+.newsletter-heading {
   text-decoration: dotted underline;
   font-size: 40px;
   text-transform: capitalize;
 }
-.newsletter-form{
+.newsletter-form {
   height: 200px;
   background: chartreuse;
   width: 60%;
   display: flex;
   flex-direction: row;
 }
-#newsletter-inp{
+#newsletter-inp {
   background: rgb(0, 183, 255);
   padding: 1rem;
   font-size: 25px;
   width: 70%;
 }
-#newsletter-inp::placeholder{
+#newsletter-inp::placeholder {
   color: red;
-
 }
-.newsletter-btn{
+.newsletter-btn {
   /* width: fit-content; */
   cursor: pointer;
   font-size: 25px;
@@ -297,10 +305,9 @@ main{
   /* width: 40px; */
   /* flex-direction: column; */
 }
-.right-arrow{
+.right-arrow {
   width: 30px;
 }
-
 
 /* fixed whatsapp button  */
 .whatsapp-contact {
@@ -335,26 +342,25 @@ main{
   background-position: center;
 }
 
-
 /* temporary css */
-.hi{
+.hi {
   font-size: 50px;
 }
-.f1{
+.f1 {
   font-family: apercu-bold;
 }
-.f2{
+.f2 {
   font-family: apercu-light;
 }
-.f3{
+.f3 {
   font-family: apercu-medium;
 }
-.f4{
+.f4 {
   font-family: apercu-regular;
 }
-.f5{
+.f5 {
   font-family: BatGhost;
 }
-.f6{
+.f6 {
   font-family: Ghastly;
 }
